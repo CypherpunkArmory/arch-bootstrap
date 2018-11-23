@@ -25,6 +25,7 @@ PACMAN_PACKAGES=(
   acl archlinux-keyring attr bzip2 curl expat glibc gpgme libarchive
   libassuan libgpg-error libnghttp2 libssh2 lzo openssl pacman pacman-mirrorlist xz zlib
   krb5 e2fsprogs keyutils libidn2 libunistring gcc-libs lz4 libpsl icu libunistring zstd
+  ca-certificates ca-certificates-utils
 )
 BASIC_PACKAGES=(${PACMAN_PACKAGES[*]} filesystem)
 EXTRA_PACKAGES=(coreutils bash grep gawk file tar systemd sed)
